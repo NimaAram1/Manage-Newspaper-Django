@@ -1,0 +1,29 @@
+{% extends "site/base.html" %}
+{% block title %}
+گلشن مهر | صفحه اصلی
+{% endblock  %}
+{% block content %}
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">گلشن مهر</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+  <form class="form-inline my-2 w-50 my-lg-2 " >
+      <input class="form-control mr-sm-4 w-75 none-border" type="search" placeholder="جستجوی نشریه بر اساس تاریخ دلخواه" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0 none-border" type="submit"><i class="fas fa-search"></i></button>
+    </form>
+    <div class='chod_diir'>|</div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">درباره ما<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">تماس با ما</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- navbar -->
+{% endblock  %}
